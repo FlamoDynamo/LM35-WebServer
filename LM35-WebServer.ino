@@ -151,7 +151,7 @@ void tat2() {
 
 void readTemperatureValue() {
   // Đọc giá trị từ LM35
-  temperature = (5.0 * analogRead(LM35_PIN) / 1024.0) * 100.0; // Công thức tính nhiệt độ cho LM35
+  temperature = (5000 * analogRead(LM35_PIN) / 1024.0) * 100.0; // Công thức tính nhiệt độ cho LM35
 }
 
 void sendHttpResponse(AsyncWebServerRequest *request) {
