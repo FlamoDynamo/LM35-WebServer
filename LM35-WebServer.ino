@@ -3,8 +3,8 @@
 #include <LittleFS.h>
 
 // Thông tin WiFi
-const char* ssid = "Gia Kiet";
-const char* password = "07103535";
+const char* ssid = "YOUR_SSID_NAME";
+const char* password = "YOUR_SSID_PASSWORD";
 
 // Thiết lập web server trên port 80
 AsyncWebServer server(80);
